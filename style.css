@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url(2.png);
+    background-size: cover;
+}
+
+#canvas {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    right: 30%;
+    bottom: 0%;
+}
+
+.btn {
+    position: absolute;
+    bottom: 10%;
+    left: 472px;
+    display: flex;
+    flex-direction: column;
+}
+
+.d-btn {
+    cursor: pointer;
+    background-color: brown;
+    width: 50px;
+    height: 20px;
+}
+.d-btn1 {
+    cursor: pointer;
+    background-color: yellow;
+    width: 50px;
+    height: 20px;
+}
